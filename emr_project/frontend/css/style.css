@@ -1,0 +1,33 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0b1d3a;
+color: white;
+}
+.app {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.sos-btn {
+width: 220px;
+height: 220px;
+border-radius: 50%;
+background: red;
+color: white;
+font-size: 20px;
+border: none;
+}
+form {
+max-width: 300px;
+margin: 100px auto;
+display: flex;
+flex-direction: column;
+}
+input, button {
+padding: 10px;
+margin: 6px 0;
+}
+.hidden { display: none; }
