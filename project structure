@@ -1,0 +1,21 @@
+emr_help_app/
+│
+├── lib/
+│   ├── main.dart
+│   ├── screens/
+│   │   ├── splash.dart
+│   │   ├── home.dart
+│   │   ├── sos_confirm.dart
+│   │   ├── map_screen.dart
+│   │   ├── profile.dart
+│   │   └── settings.dart
+│   │
+│   ├── services/
+│   │   ├── location_service.dart
+│   │   ├── sos_service.dart
+│   │   └── shake_service.dart
+│   │
+│   └── models/
+│       └── emergency_contact.dart
+│
+└── pubspec.yaml
